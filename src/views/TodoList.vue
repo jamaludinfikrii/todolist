@@ -4,25 +4,25 @@
 
     <div class="mt-3 ">
       <template v-if="pageStatus=='success'">
-        <div class="row">
+        <div ref="successState" class="row">
           <div class="col-md-3" v-for="(item,index) in todos" :key="index">
-            <TodoCard :isDone="item.is_done" :todo="item.todo" :todoId="item.id" />
+            <TodoCard ref="todoCard" :isDone="item.is_done" :todo="item.todo" :todoId="item.id" />
           </div>
         </div>
 
       </template>
       <template v-if="pageStatus=='loading'">
-        <div>
+        <div ref="loadingState">
           loading ..
         </div>
       </template>
       <template v-if="pageStatus=='error'">
-        <div>
+        <div ref="errorState">
           Something went wrong, try again later
         </div>
       </template>
       <template v-if="pageStatus=='empty'">
-        <div>
+        <div ref="emptyState">
           You have 0 list
         </div>
       </template>

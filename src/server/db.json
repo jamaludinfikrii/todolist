@@ -25,7 +25,7 @@
       "todo": "Study",
       "where": "Room",
       "detail": "Math",
-      "is_done": false,
+      "is_done": true,
       "id": 4
     },
     {
@@ -34,6 +34,20 @@
       "detail": "Dinner",
       "is_done": true,
       "id": 5
+    },
+    {
+      "todo": "belajar",
+      "where": "dirumah",
+      "detail": "vue test utils",
+      "is_done": true,
+      "id": 6
+    },
+    {
+      "todo": "Memasak",
+      "where": "rumah",
+      "detail": "sup",
+      "is_done": false,
+      "id": 7
     }
   ]
 }
