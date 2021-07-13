@@ -1,5 +1,6 @@
 // apa yang udah dipelajari
 
+// dasar testing
 // dasar jest
 // dasar vue test utils
   // mount - select - action - expect

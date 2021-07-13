@@ -46,7 +46,7 @@
       "todo": "Memasak",
       "where": "rumah",
       "detail": "sup",
-      "is_done": false,
+      "is_done": true,
       "id": 7
     }
   ]
